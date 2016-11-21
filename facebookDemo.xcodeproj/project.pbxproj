@@ -15,6 +15,13 @@
 		F01EE7121DDEEFF800A7A499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01EE7101DDEEFF800A7A499 /* LaunchScreen.storyboard */; };
 		F01EE71D1DDEEFF800A7A499 /* facebookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EE71C1DDEEFF800A7A499 /* facebookDemoTests.m */; };
 		F01EE7281DDEEFF800A7A499 /* facebookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EE7271DDEEFF800A7A499 /* facebookDemoUITests.m */; };
+		F01EE73A1DDEF03600A7A499 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01EE7361DDEF03600A7A499 /* Bolts.framework */; };
+		F01EE73B1DDEF03600A7A499 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01EE7371DDEF03600A7A499 /* FBSDKCoreKit.framework */; };
+		F01EE73C1DDEF03600A7A499 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01EE7381DDEF03600A7A499 /* FBSDKLoginKit.framework */; };
+		F01EE73D1DDEF03600A7A499 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01EE7391DDEF03600A7A499 /* FBSDKShareKit.framework */; };
+		F01EE7421DDEF05500A7A499 /* SZG_FBSDKHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EE73F1DDEF05500A7A499 /* SZG_FBSDKHelper.m */; };
+		F01EE7431DDEF05500A7A499 /* SZG_FBSDKShareContent.m in Sources */ = {isa = PBXBuildFile; fileRef = F01EE7411DDEF05500A7A499 /* SZG_FBSDKShareContent.m */; };
+		F01EE74C1DDEFCD600A7A499 /* xiaomayun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F01EE74B1DDEFCD600A7A499 /* xiaomayun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		F01EE7231DDEEFF800A7A499 /* facebookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01EE7271DDEEFF800A7A499 /* facebookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookDemoUITests.m; sourceTree = "<group>"; };
 		F01EE7291DDEEFF800A7A499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01EE7361DDEF03600A7A499 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F01EE7371DDEF03600A7A499 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F01EE7381DDEF03600A7A499 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F01EE7391DDEF03600A7A499 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F01EE73E1DDEF05500A7A499 /* SZG_FBSDKHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZG_FBSDKHelper.h; sourceTree = "<group>"; };
+		F01EE73F1DDEF05500A7A499 /* SZG_FBSDKHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZG_FBSDKHelper.m; sourceTree = "<group>"; };
+		F01EE7401DDEF05500A7A499 /* SZG_FBSDKShareContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZG_FBSDKShareContent.h; sourceTree = "<group>"; };
+		F01EE7411DDEF05500A7A499 /* SZG_FBSDKShareContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZG_FBSDKShareContent.m; sourceTree = "<group>"; };
+		F01EE74B1DDEFCD600A7A499 /* xiaomayun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaomayun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01EE73D1DDEF03600A7A499 /* FBSDKShareKit.framework in Frameworks */,
+				F01EE73A1DDEF03600A7A499 /* Bolts.framework in Frameworks */,
+				F01EE73B1DDEF03600A7A499 /* FBSDKCoreKit.framework in Frameworks */,
+				F01EE73C1DDEF03600A7A499 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +121,13 @@
 		F01EE7011DDEEFF800A7A499 /* facebookDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F01EE7351DDEF03600A7A499 /* FacebookSDKs-iOS-4 */,
 				F01EE7051DDEEFF800A7A499 /* AppDelegate.h */,
 				F01EE7061DDEEFF800A7A499 /* AppDelegate.m */,
 				F01EE7081DDEEFF800A7A499 /* ViewController.h */,
 				F01EE7091DDEEFF800A7A499 /* ViewController.m */,
 				F01EE70B1DDEEFF800A7A499 /* Main.storyboard */,
+				F01EE74B1DDEFCD600A7A499 /* xiaomayun.jpg */,
 				F01EE70E1DDEEFF800A7A499 /* Assets.xcassets */,
 				F01EE7101DDEEFF800A7A499 /* LaunchScreen.storyboard */,
 				F01EE7131DDEEFF800A7A499 /* Info.plist */,
@@ -138,6 +160,21 @@
 				F01EE7291DDEEFF800A7A499 /* Info.plist */,
 			);
 			path = facebookDemoUITests;
+			sourceTree = "<group>";
+		};
+		F01EE7351DDEF03600A7A499 /* FacebookSDKs-iOS-4 */ = {
+			isa = PBXGroup;
+			children = (
+				F01EE73E1DDEF05500A7A499 /* SZG_FBSDKHelper.h */,
+				F01EE73F1DDEF05500A7A499 /* SZG_FBSDKHelper.m */,
+				F01EE7401DDEF05500A7A499 /* SZG_FBSDKShareContent.h */,
+				F01EE7411DDEF05500A7A499 /* SZG_FBSDKShareContent.m */,
+				F01EE7361DDEF03600A7A499 /* Bolts.framework */,
+				F01EE7371DDEF03600A7A499 /* FBSDKCoreKit.framework */,
+				F01EE7381DDEF03600A7A499 /* FBSDKLoginKit.framework */,
+				F01EE7391DDEF03600A7A499 /* FBSDKShareKit.framework */,
+			);
+			path = "FacebookSDKs-iOS-4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +244,7 @@
 				TargetAttributes = {
 					F01EE6FE1DDEEFF800A7A499 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TCV6MV79BA;
 						ProvisioningStyle = Automatic;
 					};
 					F01EE7171DDEEFF800A7A499 = {
@@ -249,6 +287,7 @@
 				F01EE7121DDEEFF800A7A499 /* LaunchScreen.storyboard in Resources */,
 				F01EE70F1DDEEFF800A7A499 /* Assets.xcassets in Resources */,
 				F01EE70D1DDEEFF800A7A499 /* Main.storyboard in Resources */,
+				F01EE74C1DDEFCD600A7A499 /* xiaomayun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01EE7431DDEF05500A7A499 /* SZG_FBSDKShareContent.m in Sources */,
 				F01EE70A1DDEEFF800A7A499 /* ViewController.m in Sources */,
 				F01EE7071DDEEFF800A7A499 /* AppDelegate.m in Sources */,
+				F01EE7421DDEF05500A7A499 /* SZG_FBSDKHelper.m in Sources */,
 				F01EE7041DDEEFF800A7A499 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,9 +411,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,8 +454,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -424,9 +467,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCV6MV79BA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/facebookDemo/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = facebookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nightMode.facebookDemo;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = paopaolongyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +485,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCV6MV79BA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/facebookDemo/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = facebookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nightMode.facebookDemo;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = paopaolongyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
